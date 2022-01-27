@@ -1,0 +1,53 @@
+th{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+td{
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+}
+
+table{
+    border-spacing: 0; border-collapse: collapse;
+    border: black solid 5px;
+}
+
+a{
+    background-color:rgb(168, 168, 168);
+    border: solid black 2px;
+    
+}
+
+.chessboard {
+    width: 800px;
+    height: 800px;
+    margin: 20px;
+    border: 5px solid black;
+}
+.black {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+body{
+    background-color: cornflowerblue;
+}
